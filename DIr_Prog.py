@@ -29,4 +29,13 @@ for key in d:
 print(d.keys())
 print(type(d.keys()))
 
+for key in d.keys():
+    print(str(key) +"--" +str(d[key]))
 
+print(d.values())
+
+for value in d.values():
+    print(value)
+
+print(d.get('key_1'))
+d.clear()
